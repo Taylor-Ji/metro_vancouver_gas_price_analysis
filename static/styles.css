@@ -1,0 +1,55 @@
+/* Styles for Metro Vancouver Gas Prices dashboard */
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#9aa7bd;
+  --accent:#2b8cbe;
+  --accent-2:#08519c;
+  --surface:#071026;
+  --glass: rgba(255,255,255,0.03);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, #071223 0%, #071733 100%);
+  color:#e6eef6;
+  -webkit-font-smoothing:antialiased;
+}
+header{display:flex;align-items:center;justify-content:space-between;padding:24px 32px}
+header h1{margin:0;font-size:20px;letter-spacing:0.2px}
+main{max-width:1200px;margin:18px auto;padding:0 16px}
+
+.cards{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:10px;padding:16px;box-shadow:0 6px 18px rgba(2,6,23,0.6);grid-column: span 12}
+
+.card h2{margin-top:0;margin-bottom:12px;font-size:18px;color:var(--accent)}
+
+/* Responsive layout: left column wide charts, right side summaries */
+@media(min-width:900px){
+  .card.half{grid-column: span 6}
+  .card.full{grid-column: span 12}
+}
+
+.data-table{width:100%;border-collapse:collapse;font-size:14px}
+.data-table th,.data-table td{padding:8px 10px;border-bottom:1px solid rgba(255,255,255,0.03);text-align:left}
+.data-table th{background:transparent;color:var(--muted);font-weight:600}
+.data-table tr:hover td{background:linear-gradient(90deg, rgba(43,140,190,0.03), rgba(8,81,156,0.02))}
+
+/* Make canvases responsive */
+canvas{width:100% !important;height:auto !important;max-height:360px}
+
+.kpi-row{display:flex;gap:12px;align-items:center}
+.kpi{background:var(--glass);padding:12px;border-radius:8px;min-width:120px;text-align:center}
+.kpi .v{font-size:16px;font-weight:700}
+.kpi .label{font-size:12px;color:var(--muted)}
+
+.footer{padding:20px;text-align:center;color:var(--muted);font-size:13px}
+
+/* small screens */
+@media(max-width:600px){
+  header{padding:12px}
+  main{padding:0 10px}
+  .card{padding:10px}
+}
