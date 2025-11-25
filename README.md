@@ -1,6 +1,6 @@
 # 🛢️ Metro Vancouver Gas Price Dashboard  
 # https://metro-vancouver-gas-price-analysis.onrender.com/
-### *A Data-Driven Web Application for Real-Time Fuel Insights*
+### *A Data-Driven Web Application for Fuel Insights*
 
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
