@@ -12,7 +12,7 @@
 
 ## 🌐 Overview
 
-**Metro Vancouver Gas Price Dashboard** is a Flask-based web application that visualizes real-time and historical **gas prices** across Metro Vancouver.  
+**Metro Vancouver Gas Price Dashboard** is a Flask-based web application that visualizes the historical **gas prices** across Metro Vancouver.  
 It integrates with a hosted PostgreSQL database through Neon updated through an external ELT pipeline (Airflow), enabling users to view trends such as daily medians, lowest stations, and city-by-city comparisons.
 
 This project demonstrates full-stack data engineering and web deployment — from **data scraping → database → analytics → visualization**.
