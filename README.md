@@ -5,7 +5,6 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
-![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?logo=render&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-F5788D?logo=chartdotjs&logoColor=white)
 
 ---
@@ -40,7 +39,7 @@ All gas price data are from GasBuddy.
 - Interactive tables and price ranking views  
 
 ✅ **Cloud-Deployed**
-- **Backend:** Flask + Gunicorn hosted on Render  
+- **Backend:** Flask + Gunicorn hosted on a personal web server 
 - **Frontend:** static deployment via or Render  
 
 ---
