@@ -1,5 +1,5 @@
 # 🛢️ Metro Vancouver Gas Price Dashboard  
-# https://metro-vancouver-gas-price-analysis.onrender.com/
+# https://gas-mate.taylorji.com/
 ### *A Data-Driven Web Application for Fuel Insights*
 
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
